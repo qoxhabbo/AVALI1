@@ -70,8 +70,8 @@
 
         .floating-image {
             position: absolute;
-            left: 47%;
-            top: 60px;
+            left: 49%;
+            top: 70px;
             transform: translateX(-50%);
             color: white;
         }
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 30px 30px;
     background: #4d4d4d; /* Cor de fundo alterada */
     border-radius: 20px;
     color: white;
