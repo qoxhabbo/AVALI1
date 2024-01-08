@@ -70,8 +70,8 @@
 
         .floating-image {
             position: absolute;
-            left: 49%;
-            top: 70px;
+            left: 47%;
+            top: 60px;
             transform: translateX(-50%);
             color: white;
         }
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 30px;
+    padding: 20px 10px;
     background: #4d4d4d; /* Cor de fundo alterada */
     border-radius: 20px;
     color: white;
@@ -708,8 +708,8 @@
             }
 
             
-            // Ver se foi aprovado ou não para aprovar necessário acertar = 7
-            if (pontuacao >= 7) {
+            // Ver se foi aprovado ou não para aprovar necessário acertar = 10
+            if (pontuacao >= 9) {
                 veredito = "Aprovado"
                 document.getElementById('enviar_veredito').innerHTML = veredito
                 document.getElementById('aprovado').innerHTML = `Aprovado! Você acertou ${pontuacao}/9`
