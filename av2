@@ -702,8 +702,8 @@
                 pontuacao = pontuacao
             }
             
-            // Ver se foi aprovado ou não para aprovar necessário acertar = 10
-            if (pontuacao >= 10) {
+            // Ver se foi aprovado ou não para aprovar necessário acertar = 8
+            if (pontuacao >= 8) {
                 veredito = "Aprovado"
                 document.getElementById('enviar_veredito').innerHTML = veredito
                 document.getElementById('aprovado').innerHTML = `Aprovado! Você acertou ${pontuacao}/10`
