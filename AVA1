@@ -70,8 +70,8 @@
 
         .floating-image {
             position: absolute;
-            left: 49%;
-            top: 70px;
+            left: 48%;
+            top: 60px;
             transform: translateX(-50%);
             color: white;
         }
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 30px;
+    padding: 20px 20px;
     background: #4d4d4d; /* Cor de fundo alterada */
     border-radius: 20px;
     color: white;
@@ -305,7 +305,7 @@
                                     <input type="radio" name="p1" value="D" id="D1">d) OP1: Conferir as TAG's corretas sem margem de erro, copiando e colando o nick pelo sussurro; OP2: Conferir se o recruta não é exonerado.</br></p>
                                     
 
-                                <p><label><span class="badge badge-dark">02</span> - - Quais são as medidas de segurança dos operadores 3 e 4?</label><br>
+                                <p><label><span class="badge badge-dark">02</span> - Quais são as medidas de segurança dos operadores 3 e 4?</label><br>
                                     <input type="radio" name="p2" value="A" id="A2">a) OP3: Conferir com atenção a missão e fardamento do policial, verificando se estão de acordo com as normas do Anexo I do Código Conduta Militar; OP4: Conferir se o policial possui grupo de outras organizações em seu perfil, verificando também os donos dos grupos oficiais da RCC.</br>
                                     <input type="radio" name="p2" value="B" id="B2">b) OP3: Conferir as TAG's corretas sem margem de erro, copiando e colando o nick pelo sussurro; OP4: Conferir se o recruta não é exonerado.</br>
                                     <input type="radio" name="p2" value="C" id="C2">c) OP3: Conferir se o policial possui grupo de outras organizações em seu perfil, verificando também os donos dos grupos oficiais da RCC; OP4: Conferir se o recruta não é exonerado.</br>
@@ -319,23 +319,23 @@
 
 
                                 <p><label><span class="badge badge-dark">04</span> - Qual anexo do Código de Conduta Militar é recomendado abrir enquanto ocupa a função de Operador 1 ou Operador 4?</label><br>
-                                    <input type="radio" name="p5" value="A" id="A5">a) Código de Conduta Militar - Disposições Gerais.</br>
-                                    <input type="radio" name="p5" value="B" id="B5">b) Anexo II - Política de Baixa, Aposentadoria e Reintegração.</br>
-                                    <input type="radio" name="p5" value="C" id="C5">c) Código de Conduta Militar - Disposições Complementares.</br>
-                                    <input type="radio" name="p5" value="D" id="D5">d) Anexo I - Normas para nicknames, emblemas, missões e fardas.</br></p>
+                                    <input type="radio" name="p4" value="A" id="A4">a) Código de Conduta Militar - Disposições Gerais.</br>
+                                    <input type="radio" name="p4" value="B" id="B4">b) Anexo II - Política de Baixa, Aposentadoria e Reintegração.</br>
+                                    <input type="radio" name="p4" value="C" id="C4">c) Código de Conduta Militar - Disposições Complementares.</br>
+                                    <input type="radio" name="p4" value="D" id="D4">d) Anexo I - Normas para nicknames, emblemas, missões e fardas.</br></p>
 
                                 <p><label><span class="badge badge-dark">05</span> - Como conferir se um recruta/policial está com a visibilidade do perfil desativada? E com o modo offline ativado?</label><br>
-                                    <input type="radio" name="p6" value="A" id="A6">a) Caso não seja possível visualizar o "Último Login", então ele está com a visibilidade do perfil desativada e caso esteja com o modo offline ativado, não será possível acessar seu perfil.</br>
-                                    <input type="radio" name="p6" value="B" id="B6">b) Caso esteja com a visibilidade do perfil desativada, não será possível acessar seu perfil e caso não seja possível visualizar o "Último Login", então ele está com o modo offline ativado.</br>
-                                    <input type="radio" name="p6" value="C" id="C6">c) Caso não esteja com o modo offline ativado, não será possível acessar seu perfil e caso seja possível visualizar o “Último Login”, então ele não está com a visibilidade do perfil ativada.</br>
-                                    <input type="radio" name="p6" value="D" id="D6">d) Caso não esteja com a visibilidade do perfil ativada, será possível acessar seu perfil e caso seja possível visualizar o “Último Login”, então ele não está com o modo offline ativado.</br></p>
+                                    <input type="radio" name="p5" value="A" id="A5">a) Caso não seja possível visualizar o "Último Login", então ele está com a visibilidade do perfil desativada e caso esteja com o modo offline ativado, não será possível acessar seu perfil.</br>
+                                    <input type="radio" name="p5" value="B" id="B5">b) Caso esteja com a visibilidade do perfil desativada, não será possível acessar seu perfil e caso não seja possível visualizar o "Último Login", então ele está com o modo offline ativado.</br>
+                                    <input type="radio" name="p5" value="C" id="C5">c) Caso não esteja com o modo offline ativado, não será possível acessar seu perfil e caso seja possível visualizar o “Último Login”, então ele não está com a visibilidade do perfil ativada.</br>
+                                    <input type="radio" name="p5" value="D" id="D5">d) Caso não esteja com a visibilidade do perfil ativada, será possível acessar seu perfil e caso seja possível visualizar o “Último Login”, então ele não está com o modo offline ativado.</br></p>
 
 
                                     <p><label><span class="badge badge-dark">06</span> - Quais tipos de grupos um recruta/policial da RCC é proibido de portar em seu perfil? Qual a única situação permitida?</label><br>
-                                        <input type="radio" name="p4" value="A" id="A4">a) Grupos oficiais da RCC, além de grupos que vão contra a Habbo Etiqueta; Grupos congelados.</br>
-                                        <input type="radio" name="p4" value="B" id="B4">b) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares; Grupos que vão contra a Habbo Etiqueta.</br>
-                                        <input type="radio" name="p4" value="C" id="C4">c) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares, além de grupos que vão contra a Habbo Etiqueta; Grupos congelados.</br>
-                                        <input type="radio" name="p4" value="D" id="D4">d) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares, além de grupos congelados; Grupos que vão contra a Habbo Etiqueta.</br></p>
+                                        <input type="radio" name="p6" value="A" id="A6">a) Grupos oficiais da RCC, além de grupos que vão contra a Habbo Etiqueta; Grupos congelados.</br>
+                                        <input type="radio" name="p6" value="B" id="B6">b) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares; Grupos que vão contra a Habbo Etiqueta.</br>
+                                        <input type="radio" name="p6" value="C" id="C6">c) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares, além de grupos que vão contra a Habbo Etiqueta; Grupos congelados.</br>
+                                        <input type="radio" name="p6" value="D" id="D6">d) Grupos de outras instituições militares, como polícias, exércitos e demais organizações similares, além de grupos congelados; Grupos que vão contra a Habbo Etiqueta.</br></p>
 
                                 <p><label><span class="badge badge-dark">07</span> -  Qual é a função do sentinela? E qual a função adicional que o sentinela exerce no Batalhão Auxiliar?</label><br>
                                     <input type="radio" name="p7" value="A" id="A7">a) O sentinela comanda e treina a recepção, além de permitir saídas dela; No batalhão auxiliar, ele tem a função de Oficial da Guarda.</br>
@@ -662,7 +662,7 @@
                 pontuacao = pontuacao
             }
             
-            // Ver se foi aprovado ou não para aprovar necessário acertar = 6
+            // Ver se foi aprovado ou não para aprovar necessário acertar = 10
             if (pontuacao >= 6) {
                 veredito = "Aprovado"
                 document.getElementById('enviar_veredito').innerHTML = veredito
